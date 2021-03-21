@@ -8,3 +8,5 @@
     public class Square : IFigure {}
 
 ---
+
+![Диаграмма баз данных](/Задание № 6.png)
