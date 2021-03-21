@@ -15,9 +15,9 @@
 
 ---
 ### Задание 9
-### диаграмма БД
+### Диаграмма БД
 ![диаграмма БД](SQL_View.JPG)
-
+#### SQL запрос:
     SELECT P."Name", C."Name"
     FROM Products P
     LEFT JOIN Product_Category PC
