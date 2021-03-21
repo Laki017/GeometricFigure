@@ -7,6 +7,19 @@
 #### Для добавления нового типа фигур нужно реализовать интерфейс IFigure: 
     public class Square : IFigure {}
 
----
 
-![Диаграмма баз данных](/Задание № 6.png)
+---
+##Задание 6
+![Задание 6](Задание6.png)
+
+---
+##Задание 9
+###Диаграмма БД
+![Диаграмма БД](SQL_View.JPG)
+
+    SELECT P."Name", C."Name"
+    FROM Products P
+    LEFT JOIN Product_Category PC
+	    ON P.Id = PC.ProductId
+    LEFT JOIN Category C
+	    ON PC.CategoryId = C.Id;
